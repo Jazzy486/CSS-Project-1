@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: hsl(30, 38%, 92%);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.parent{
+    
+   /*
+    position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   */
+    
+    width: 46vw;
+    height: 450px;
+    margin: 160px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+
+    
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start; 
+    
+    background-color: hsl(0, 0%, 100%);
+}
+
+.photo{
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    height: 450px;
+    width: 360px;
+}
+
+.top-head{
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 4px;
+    font-weight: 100;
+    font-size: 12px;
+    color: hsl(228, 12%, 48%);
+    padding-top: 30px;
+}
+
+.product-name{
+    font-family: 'Fraunces', serif;
+    line-height: 1;
+}
+
+.description{
+    padding-left: 30px;
+    padding-right: 40px;
+}
+
+p{
+    color: hsl(228, 12%, 48%);
+    padding-top: 30px;
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+}
+
+table{
+    padding-top: 40px;
+}
+
+.price{
+    font-family: 'Fraunces', serif;
+    font-size: 30px;
+    padding-right: 30px;
+    color: hsl(158, 36%, 37%);
+
+}
+
+.old-price{
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    text-align: center;
+}
+
+.button-1{
+    background-color: hsl(158, 36%, 37%);
+    border-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    margin-left: 4px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 12px;
+    cursor: pointer;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+
+
+}
+
+.button-1:hover{
+background-color:hsl(157, 37%, 22%) ;
+}
+
+.cart{
+    padding-right: 10px;
+}
+
+.attribution{
+    position: absolute;
+    margin-top: 500px;
+}
